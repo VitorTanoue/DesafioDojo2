@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+
+diario: -t @cadastrar 
+
+regressao: -t @cadastrar -t @editar -t @deletar
